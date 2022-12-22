@@ -1,0 +1,4 @@
+a = int(input("Enter the number of seconds: "))
+min = a//60
+sec = a%60
+print("The minutes:" + str(min) + ", and the seconds is:" + str(sec))
